@@ -43,8 +43,8 @@
     "scaleY":1,
     "scaleZ":1000
   },
-  "url":"file:///Data/elevation/griddedDem",
-  "fileExtension":"demcb",
-  "filePrefix":"bc_gridded_dem",
+  "url":"folderconnection://BCDEM%20Data/ground_dem",
+  "fileExtension":"sigdem",
+  "filePrefix":"bc_ground_dem",
   "tileSizePixels":1000
 }

@@ -4,7 +4,8 @@
   "visible":true,
   "open":true,
   "geometryFactory": {
-    "j:type":
+    "j:type":"geometryFactory",
+    "coordinateSystemId": 3005
   },
   "layers":[
     "../../Base Maps.rgmap",
