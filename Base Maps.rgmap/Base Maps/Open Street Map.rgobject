@@ -1,0 +1,6 @@
+{
+  "j:type": "webMercatorTileCacheLayer",
+  "url": "http://tile.openstreetmap.org/",
+  "name": "Open Street Map",
+  "visible":false
+}

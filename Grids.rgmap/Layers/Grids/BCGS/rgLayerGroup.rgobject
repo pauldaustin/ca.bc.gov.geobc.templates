@@ -1,0 +1,9 @@
+{
+  "j:type":"layerGroup",
+  "name":"BCGS",
+  "visible":false,
+  "open":false,
+  "layers":[
+    "BCGS 1_20 000.rgobject"
+  ]
+}

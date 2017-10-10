@@ -1,0 +1,12 @@
+{
+  "j:type":"layerGroup",
+  "name":"Base Maps",
+  "layers":[
+    "BC Roads _Albers_.rgobject",
+    "Planet Labs Imagery.rgobject",
+    "Bing Road.rgobject",
+    "Bing Aerial.rgobject",
+    "Open Street Map.rgobject",
+    "ESRI Open Street Map.rgobject"
+  ]
+}

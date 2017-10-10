@@ -1,0 +1,105 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"Integrated Cadastral Fabric",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":false,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":500000,
+  "style":{
+    "j:type":"multipleStyle",
+    "j:type":"multipleStyle",
+    "name":"Styles",
+    "styles":[
+      {
+        "j:type":"geometryStyle",
+        "j:type":"geometryStyle",
+        "name":"Outline",
+        "lineWidth":"2.0 [pnt]",
+        "lineColor":"Silver",
+        "polygonFill":"Black",
+        "polygonFillOpacity":0
+      },
+      {
+        "j:type":"filterStyle",
+        "j:type":"filterStyle",
+        "name":"Ownership",
+        "styles":[
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Private Ownership",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"OWNERSHIP_CLASS = 'PRIVATE'"
+            },
+            "lineWidth":"1.0 [pnt]",
+            "lineColor":"Black",
+            "polygonFill":"rgba(255,255,190,0.4980392156862745)",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Crown Ownership",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"OWNERSHIP_CLASS LIKE 'CROWN%'"
+            },
+            "lineWidth":"1.0 [pnt]",
+            "lineColor":"Black",
+            "polygonFill":"rgba(255,190,232,0.4980392156862745)",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"First Nations Ownership",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"OWNERSHIP_CLASS LIKE 'FIRST NATION%'"
+            },
+            "lineWidth":"1.0 [pnt]",
+            "lineColor":"Black",
+            "polygonFill":"rgba(205,205,102,0.4980392156862745)",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Unknown Ownership",
+            "lineWidth":"1.0 [pnt]",
+            "lineColor":"Black",
+            "polygonFill":"rgba(201,230,242,0.4980392156862745)",
+            "polygonFillOpacity":127
+          }
+        ]
+      }
+    ]
+  },
+  "connection":{
+    "name":"BCGW"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "ctid",
+      "ID",
+      "GEOMETRY"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/WHSE_CADASTRE\/CBM_INTGD_CADASTRAL_FABRIC_SVW"
+}

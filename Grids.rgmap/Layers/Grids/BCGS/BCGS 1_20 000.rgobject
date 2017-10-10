@@ -1,0 +1,26 @@
+{
+  "j:type":"gridLayer",
+  "name":"BCGS 1:20 000",
+  "visible":true,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "maximumScale":0,
+  "minimumScale":1000000,
+  "style":{
+    "j:type":"gridLayerRenderer",
+    "name":"Grid Style",
+    "geometryStyle":{
+      "lineColor":"LightGray",
+      "polygonFill":"Gray",
+      "polygonFillOpacity":0
+    },
+    "textStyle":{
+      "textSize":"12 [pnt]",
+      "textName":"[formattedName]",
+      "textHorizontalAlignment":"center",
+      "textVerticalAlignment":"middle"
+    }
+  },
+  "gridName":"BCGS 1:20 000"
+}

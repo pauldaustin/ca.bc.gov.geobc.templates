@@ -1,0 +1,7 @@
+{
+  "j:type": "arcGisRestServerTileLayer",
+  "name": "ESRI Open Street Map",
+  "connectionName": "ESRI ArcGIS Online",
+  "servicePath": "/World_Street_Map/MapServer",
+  "visible":false
+}

@@ -1,0 +1,38 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"Forest Tenure Roads",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":false,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":500000,
+  "style":{
+    "j:type":"geometryStyle",
+    "j:type":"geometryStyle",
+    "name":"Geometry",
+    "lineWidth":"1.0 [pnt]",
+    "lineColor":"Orange"
+  },
+  "connection":{
+    "name":"BCGW"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "ctid",
+      "ID",
+      "GEOMETRY"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/WHSE_FOREST_TENURE\/FTEN_ROAD_LINES"
+}

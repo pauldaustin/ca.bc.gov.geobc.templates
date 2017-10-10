@@ -1,0 +1,7 @@
+{
+  "j:type":"ogcWmsServer",
+  "name":"Planet Labs Imagery",
+  "serviceUrl":"http://geocloud.blackbridge.com/service",
+  "username":"geo_bc",
+  "password":"{BASE64}cnpWQnZ6N2E=}"
+}

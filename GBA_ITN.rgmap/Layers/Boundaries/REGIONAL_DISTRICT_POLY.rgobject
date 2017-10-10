@@ -1,0 +1,44 @@
+{
+  "j:type":"recordStoreLayer",
+  "j:type":"recordStoreLayer",
+  "name":"REGIONAL_DISTRICT_POLY",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":true,
+  "selectable":true,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "style":{
+    "j:type":"geometryStyle",
+    "j:type":"geometryStyle",
+    "name":"Geometry Style",
+    "lineColor":"Olive",
+    "polygonFill":"Olive",
+    "polygonFillOpacity":127
+  },
+  "connection":{
+    "name":"GBA"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "REGIONAL_DISTRICT_ID",
+      "NAME",
+      "CREATE_INTEGRATION_SESSION_ID",
+      "MODIFY_INTEGRATION_SESSION_ID",
+      "REGION_CODE",
+      "COUNTRY_CODE",
+      "GEOMETRY"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/GBA\/REGIONAL_DISTRICT_POLY"
+}

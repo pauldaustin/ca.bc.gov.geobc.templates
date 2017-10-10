@@ -1,0 +1,17 @@
+{
+  "j:type":"layerGroup",
+  "j:type":"layerGroup",
+  "name":"Boundaries",
+  "visible":true,
+  "open":true,
+  "readOnly":false,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "singleLayerVisible":false,
+  "layers":[
+    "REGIONAL_DISTRICT_POLY.rgobject",
+    "LOCALITY_POLY.rgobject",
+    "localities.rgobject",
+    "reg_dist.rgobject"
+  ]
+}

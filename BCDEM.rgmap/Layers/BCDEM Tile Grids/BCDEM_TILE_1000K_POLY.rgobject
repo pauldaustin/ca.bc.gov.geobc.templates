@@ -1,0 +1,32 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"BCDEM_TILE_1000K_POLY",
+  "visible":true,
+  "readOnly":true,
+  "minimumScale":50000000,
+  "maximumScale":10000001,
+  "style":{
+    "j:type":"multipleStyle",
+    "styles":[
+      {
+        "j:type":"geometryStyle",
+        "name":"Outline",
+        "lineColor":"LightGray",
+        "polygonFillOpacity":0
+      },
+      {
+        "j:type":"textStyle",
+        "name":"Tile Id",
+        "textSize":"12 [pnt]",
+        "textName":"[TILE_X]_[TILE_Y]",
+        "textHorizontalAlignment":"center",
+        "textVerticalAlignment":"middle"
+      }
+    ]
+  },
+  "connection":{
+    "name": "BCDEM"
+  },
+  "useFieldTitles":false,
+  "typePath":"/BCDEM/BCDEM_TILE_1000K_POLY"
+}

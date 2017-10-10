@@ -1,0 +1,32 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"BCDEM_SOURCE_FILE_POLY",
+  "visible":false,
+  "readOnly":true,
+  "minimumScale":200000,
+  "style":{
+    "j:type":"multipleStyle",
+    "styles":[
+      {
+        "j:type":"geometryStyle",
+        "name":"Outline",
+        "lineColor":"Red",
+        "polygonFill":"Red",
+        "polygonFillOpacity":0
+      },
+      {
+        "j:type":"textStyle",
+        "name":"File Name",
+        "textSize":"12 [pnt]",
+        "textName":"[SOURCE_FILE_NAME]\n[CAPTURE_DATE]",
+        "textHorizontalAlignment":"center",
+        "textVerticalAlignment":"middle"
+      }
+    ]
+  },
+  "connection":{
+    "name":"BCDEM"
+  },
+  "useFieldTitles":false,
+  "typePath":"/BCDEM/BCDEM_SOURCE_FILE_POLY"
+}

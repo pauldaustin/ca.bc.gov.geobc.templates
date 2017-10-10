@@ -1,0 +1,11 @@
+{
+  "j:type":"layerGroup",
+  "name":"NTS",
+  "visible":false,
+  "open":false,
+  "layers":[
+    "NTS 1_1 000 000.rgobject",
+    "NTS 1_250 000.rgobject",
+    "NTS 1_50 000.rgobject"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "j:type":"recordStoreLayer",
+  "j:type":"recordStoreLayer",
+  "name":"LOCALITY_POLY",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":true,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "style":{
+    "j:type":"geometryStyle",
+    "j:type":"geometryStyle",
+    "name":"Geometry Style",
+    "lineColor":"Maroon",
+    "polygonFill":"Maroon",
+    "polygonFillOpacity":127
+  },
+  "pluginConfig":{
+    "tableView":{
+      "fieldFilterMode":"all",
+      "geometryFilterMode":"all",
+      "searchField":"NAME",
+      "filter":{
+        "j:type":"sqlFilter",
+        "j:type":"sqlFilter",
+        "query":"NAME = 'Vancouver'"
+      },
+      "orderBy":{
+        "LOCALITY_ID":true
+      }
+    }
+  },
+  "connection":{
+    "name":"GBA"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "LOCALITY_ID",
+      "NAME",
+      "CREATE_INTEGRATION_SESSION_ID",
+      "MODIFY_INTEGRATION_SESSION_ID",
+      "GEOMETRY"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/GBA\/LOCALITY_POLY"
+}

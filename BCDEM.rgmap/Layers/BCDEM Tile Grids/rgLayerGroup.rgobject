@@ -1,0 +1,18 @@
+{
+  "j:type":"layerGroup",
+  "name":"BCDEM Tile Grids",
+  "visible":true,
+  "open":true,
+  "layers":[
+    "BCDEM_TILE_1000K_POLY.rgobject",
+    "BCDEM_TILE_500K_POLY.rgobject",
+    "BCDEM_TILE_200K_POLY.rgobject",
+    "BCDEM_TILE_100K_POLY.rgobject",
+    "BCDEM_TILE_50K_POLY.rgobject",
+    "BCDEM_TILE_20K_POLY.rgobject",
+    "BCDEM_TILE_10K_POLY.rgobject",
+    "BCDEM_TILE_5K_POLY.rgobject",
+    "BCDEM_TILE_2K_POLY.rgobject",
+    "BCDEM_TILE_1K_POLY.rgobject"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "j:type":"layerGroup",
+  "name":"Grids",
+  "visible":true,
+  "open":true,
+  "layers":[
+    "Albers",
+    "NTS",
+    "BCGS"
+  ]
+}

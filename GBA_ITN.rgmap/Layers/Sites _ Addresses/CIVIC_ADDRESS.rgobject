@@ -1,0 +1,84 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"CIVIC_ADDRESS",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":false,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":10000,
+  "style":{
+    "j:type":"multipleStyle",
+    "j:type":"multipleStyle",
+    "name":"Multiple Style",
+    "styles":[
+      {
+        "j:type":"geometryStyle",
+        "j:type":"geometryStyle",
+        "name":"Point"
+      },
+      {
+        "j:type":"textStyle",
+        "j:type":"textStyle",
+        "name":"Street Number",
+        "textSize":"10.0 [pnt]",
+        "textName":"[STREET_NUMBER] [STREET_NUMBER_SUFFIX]",
+        "textHorizontalAlignment":"center",
+        "textVerticalAlignment":"middle",
+        "textDy":"15.0 [pnt]"
+      }
+    ]
+  },
+  "pluginConfig":{
+    "tableView":{
+      "fieldFilterMode":"all",
+      "geometryFilterMode":"all",
+      "searchField":"OBJECTID",
+      "filter":{
+        "j:type":"sqlFilter"
+      },
+      "orderBy":{
+        "OBJECTID":true
+      }
+    }
+  },
+  "connection":{
+    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/AddressBC\/AddressBC.gdb"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "OBJECTID",
+      "SHAPE",
+      "CIVIC_ID",
+      "GEOGRAPHIC_DOMAIN",
+      "ADDRESS_POINT_TYPE",
+      "FULL_ADDRESS",
+      "STREET_NUMBER_PREFIX",
+      "STREET_NUMBER",
+      "STREET_NUMBER_SUFFIX",
+      "STREET_NAME",
+      "STREET_DIR_PREFIX",
+      "STREET_TYPE",
+      "STREET_DIR_SUFFIX",
+      "LOCALITY",
+      "LOCALITY_NAME_ALIAS",
+      "MUNI_ID",
+      "ISSUING_AGENCY",
+      "COLLECTION_METHOD",
+      "LAST_MODIFIED_BY",
+      "LAST_MODIFIED_DATE",
+      "SITE_ID"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/CIVIC_ADDRESS"
+}

@@ -1,0 +1,18 @@
+{
+  "j:type":"layerGroup",
+  "name":"Albers",
+  "visible":false,
+  "open":false,
+  "layers":[
+    "Albers 1 000 000m.rgobject",
+    "Albers 500 000m.rgobject",
+    "Albers 200 000m.rgobject",
+    "Albers 100 000m.rgobject",
+    "Albers 50 000m.rgobject",
+    "Albers 20 000m.rgobject",
+    "Albers 10 000m.rgobject",
+    "Albers 5 000m.rgobject",
+    "Albers 2 000m.rgobject",
+    "Albers 1 000m.rgobject"
+  ]
+}

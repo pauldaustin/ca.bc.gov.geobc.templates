@@ -1,0 +1,7 @@
+{
+  "j:type": "arcGisRestServerTileLayer",
+  "name": "BC Roads (Albers)",
+  "connectionName": "BC Maps ArcGIS",
+  "servicePath": "/Province/roads/MapServer",
+  "visible": false
+}

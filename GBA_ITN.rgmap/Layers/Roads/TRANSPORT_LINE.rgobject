@@ -1,0 +1,1121 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"TRANSPORT_LINE",
+  "visible":true,
+  "open":true,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":true,
+  "selectable":false,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":100000,
+  "style":{
+    "j:type":"multipleStyle",
+    "j:type":"multipleStyle",
+    "name":"Styles",
+    "open":true,
+    "styles":[
+      {
+        "j:type":"filterStyle",
+        "j:type":"filterStyle",
+        "name":"Structures",
+        "styles":[
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Bridge",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'B'"
+            },
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "j:type":"geometryStyle",
+                "name":"Geometry Style",
+                "lineWidth":"5.0 [pnt]",
+                "lineColor":"rgb(204,0,23)",
+                "polygonFill":"Maroon",
+                "lineCap":"BUTT",
+                "polygonFillOpacity":127
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"From",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(0)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":90,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"To",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(n)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":270,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              }
+            ]
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Overpass",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'O'"
+            },
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "j:type":"geometryStyle",
+                "name":"Geometry Style",
+                "lineWidth":"5.0 [pnt]",
+                "lineColor":"rgb(255,204,255)",
+                "polygonFill":"Maroon",
+                "lineCap":"BUTT",
+                "polygonFillOpacity":127
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"From",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(0)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":90,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"To",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(n)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":270,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              }
+            ]
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Underpass",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'U'"
+            },
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "j:type":"geometryStyle",
+                "name":"Geometry Style",
+                "lineWidth":"5.0 [pnt]",
+                "lineColor":"Magenta",
+                "polygonFill":"Maroon",
+                "lineCap":"BUTT",
+                "polygonFillOpacity":127
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"From",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(0)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":90,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"To",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(n)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":270,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              }
+            ]
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Railway Overhead",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'R'"
+            },
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "j:type":"geometryStyle",
+                "name":"Geometry Style",
+                "lineWidth":"5.0 [pnt]",
+                "lineColor":"rgb(204,204,204)",
+                "polygonFill":"Maroon",
+                "lineCap":"BUTT",
+                "polygonFillOpacity":127
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"From",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(0)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":90,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"To",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(n)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":270,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              }
+            ]
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Tunnel",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'T'"
+            },
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "j:type":"geometryStyle",
+                "name":"Geometry Style",
+                "lineWidth":"5.0 [pnt]",
+                "lineColor":"Black",
+                "polygonFill":"Maroon",
+                "lineCap":"BUTT",
+                "polygonFillOpacity":127
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"From",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(0)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":90,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              },
+              {
+                "j:type":"markerStyle",
+                "j:type":"markerStyle",
+                "name":"To",
+                "markerVerticalAlignment":"top",
+                "markerWidth":"20.0 [pnt]",
+                "markerPlacementType":"vertex(n)",
+                "markerHeight":"20.0 [pnt]",
+                "markerOrientation":270,
+                "markerLineColor":"Black",
+                "markerFill":"Black",
+                "marker":{
+                  "j:type":"markerText",
+                  "j:type":"markerText",
+                  "textFaceName":"san-serif",
+                  "text":"⃩"
+                }
+              }
+            ]
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Snowshed",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'S'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"rgb(153,153,255)",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Dam",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'D'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"rgb(51,204,255)",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Viaduct",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'V'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"Black",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Causeway",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'C'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"rgb(204,255,204)",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Elevated",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'E'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"rgb(255,204,51)",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Footbridge",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_STRUCTURE_CODE = 'F'"
+            },
+            "lineWidth":"5.0 [pnt]",
+            "lineColor":"rgb(102,102,0)",
+            "polygonFill":"Maroon",
+            "lineCap":"BUTT",
+            "polygonFillOpacity":127
+          }
+        ]
+      },
+      {
+        "j:type":"filterStyle",
+        "j:type":"filterStyle",
+        "name":"Road Types",
+        "styles":[
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Ferry",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'F'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(51,102,255)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Ferry resource",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'FR'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(51,102,255)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road water access demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RWA'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              5
+            ],
+            "lineColor":"rgb(51,102,255)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road Highway, Arterial, Collector",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE IN ('RA1','RA2','RC1','RC2','RH1','RH2','RF')"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"Red",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road ramp",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRP'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              15
+            ],
+            "lineColor":"Red",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road local",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RLO'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"Magenta",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road strata",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RST'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"Magenta",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road lane",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RLN'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"rgb(153,153,255)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road alleyway",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RA'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(153,153,255)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Private driveway demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RPD'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"rgb(153,153,153)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road driveway non-demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RDN'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(153,153,153)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road restricted",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRT'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road service",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RSV'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road recreation demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRC'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"rgb(0,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road recreation",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'REC'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(0,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road resource demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRD'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"rgb(255,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road resource",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRS'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              10
+            ],
+            "lineColor":"rgb(255,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road resource non status",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RRN'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"rgb(255,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road unclassified",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RU'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"rgb(255,204,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Trail",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'T'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"rgb(153,102,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Road pedestrian mall",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'RPM'"
+            },
+            "lineDashArray":[
+              2
+            ],
+            "lineColor":"rgb(153,102,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Trail demographic",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'TD'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"rgb(153,102,0)",
+            "lineCap":"BUTT"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Trail skid",
+            "filter":{
+              "j:type":"sqlFilter",
+              "j:type":"sqlFilter",
+              "query":"TRANSPORT_LINE_TYPE_CODE = 'TS'"
+            },
+            "lineWidth":"2.0 [pnt]",
+            "lineDashArray":[
+              8,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "lineColor":"rgb(153,102,0)"
+          },
+          {
+            "j:type":"geometryStyle",
+            "j:type":"geometryStyle",
+            "name":"Other Roads",
+            "lineWidth":"2.0 [pnt]",
+            "lineColor":"rgb(51,255,0)",
+            "lineCap":"BUTT"
+          }
+        ]
+      },
+      {
+        "j:type":"multipleStyle",
+        "j:type":"multipleStyle",
+        "name":"Annotations",
+        "styles":[
+          {
+            "j:type":"textStyle",
+            "j:type":"textStyle",
+            "name":"Name",
+            "textSize":"12.0 [pnt]",
+            "textName":"[STRUCTURED_NAME_1_ID.FULL_NAME]",
+            "textFill":"rgb(102,0,102)",
+            "textHorizontalAlignment":"center",
+            "textPlacementType":"center",
+            "textDx":"0.0 [pnt]",
+            "textVerticalAlignment":"top",
+            "textDy":"-10.0 [pnt]"
+          },
+          {
+            "j:type":"textStyle",
+            "j:type":"textStyle",
+            "name":"Number",
+            "visible":false,
+            "textSize":"11.0 [pnt]",
+            "textName":"[TRANSPORT_LINE_ID]",
+            "textFill":"rgb(102,0,102)",
+            "textHorizontalAlignment":"center",
+            "textPlacementType":"center",
+            "textDx":"0.0 [pnt]",
+            "textVerticalAlignment":"middle"
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Address",
+            "visible":false,
+            "styles":[
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"Single",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"SINGLE_HOUSE_NUMBER IS NOT NULL"
+                },
+                "textSize":"11.0 [pnt]",
+                "textName":"[SINGLE_HOUSE_NUMBER]",
+                "textHorizontalAlignment":"center",
+                "textPlacementType":"center",
+                "textVerticalAlignment":"bottom",
+                "textDy":"10.0 [pnt]"
+              },
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"From Left",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"LEFT_HOUSE_NUM_SCHEME_CODE IS NOT NULL"
+                },
+                "textSize":"12.0 [pnt]",
+                "textName":"[FROM_LEFT_HOUSE_NUMBER] ([LEFT_HOUSE_NUM_SCHEME_CODE])",
+                "textPlacementType":"vertex(0)",
+                "textDx":"20.0 [pnt]",
+                "textDy":"2.0 [pnt]"
+              },
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"From Right",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"RIGHT_HOUSE_NUM_SCHEME_CODE IS NOT NULL"
+                },
+                "textSize":"12.0 [pnt]",
+                "textName":"[FROM_RIGHT_HOUSE_NUMBER] ([RIGHT_HOUSE_NUM_SCHEME_CODE])",
+                "textPlacementType":"vertex(0)",
+                "textDx":"20.0 [pnt]",
+                "textVerticalAlignment":"top",
+                "textDy":"-2.0 [pnt]"
+              },
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"To Left",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"LEFT_HOUSE_NUM_SCHEME_CODE IS NOT NULL"
+                },
+                "textSize":"12.0 [pnt]",
+                "textName":"[TO_LEFT_HOUSE_NUMBER] ([LEFT_HOUSE_NUM_SCHEME_CODE])",
+                "textHorizontalAlignment":"right",
+                "textPlacementType":"vertex(n)",
+                "textDx":"-20.0 [pnt]",
+                "textDy":"2.0 [pnt]"
+              },
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"To Right",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"RIGHT_HOUSE_NUM_SCHEME_CODE IS NOT NULL"
+                },
+                "textSize":"12.0 [pnt]",
+                "textName":"[TO_RIGHT_HOUSE_NUMBER] ([RIGHT_HOUSE_NUM_SCHEME_CODE])",
+                "textHorizontalAlignment":"right",
+                "textPlacementType":"vertex(n)",
+                "textDx":"-20.0 [pnt]",
+                "textVerticalAlignment":"top",
+                "textDy":"-2.0 [pnt]"
+              }
+            ]
+          },
+          {
+            "j:type":"multipleStyle",
+            "j:type":"multipleStyle",
+            "name":"Impactors",
+            "visible":false,
+            "styles":[
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"From Impactor",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"FROM_TRAFFIC_IMPACTOR_CODE IS NOT NULL"
+                },
+                "textSize":"10.0 [pnt]",
+                "textName":"[FROM_TRAFFIC_IMPACTOR_CODE]",
+                "textFill":"rgb(102,0,0)",
+                "textHorizontalAlignment":"left",
+                "textPlacementType":"vertex(0)",
+                "textDx":"2.0 [pnt]",
+                "textVerticalAlignment":"top",
+                "textDy":"0.0 [pnt]"
+              },
+              {
+                "j:type":"textStyle",
+                "j:type":"textStyle",
+                "name":"To Impactor",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "j:type":"sqlFilter",
+                  "query":"TO_TRAFFIC_IMPACTOR_CODE IS NOT NULL"
+                },
+                "textSize":"10.0 [pnt]",
+                "textName":"[TO_TRAFFIC_IMPACTOR_CODE]",
+                "textFill":"rgb(51,204,0)",
+                "textHorizontalAlignment":"right",
+                "textPlacementType":"vertex(n)",
+                "textDx":"-2.0 [pnt]",
+                "textVerticalAlignment":"top",
+                "textDy":"0.0 [pnt]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "j:type":"multipleStyle",
+        "j:type":"multipleStyle",
+        "name":"Ends",
+        "visible":false,
+        "styles":[
+          {
+            "j:type":"markerStyle",
+            "j:type":"markerStyle",
+            "name":"From",
+            "markerWidth":"6.0 [pnt]",
+            "markerPlacementType":"vertex(0)",
+            "markerHeight":"6.0 [pnt]",
+            "markerFill":"Black"
+          },
+          {
+            "j:type":"markerStyle",
+            "j:type":"markerStyle",
+            "name":"Marker Style",
+            "markerPlacementType":"vertex(n)",
+            "markerHeight":"7.0 [pnt]",
+            "markerFill":"Black",
+            "markerHorizontalAlignment":"right",
+            "markerType":"solidArrow"
+          }
+        ]
+      }
+    ]
+  },
+  "pluginConfig":{
+    "tableView":{
+      "fieldFilterMode":"selected",
+      "geometryFilterMode":"all",
+      "searchField":"TRANSPORT_LINE_ID",
+      "filter":{
+        "j:type":"sqlFilter",
+        "j:type":"sqlFilter"
+      },
+      "orderBy":{
+        "TRANSPORT_LINE_ID":true
+      }
+    }
+  },
+  "connection":{
+    "name":"GBA"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSetName":"Names",
+  "fieldNamesSets":{
+    "All":[
+      "TRANSPORT_LINE_ID",
+      "STRUCTURED_NAME_1_ID",
+      "STRUCTURED_NAME_2_ID",
+      "TRANSPORT_LINE_TYPE_CODE",
+      "SINGLE_HOUSE_NUMBER",
+      "LEFT_LOCALITY_ID",
+      "LEFT_HOUSE_NUM_SCHEME_CODE",
+      "FROM_LEFT_HOUSE_NUMBER",
+      "TO_LEFT_HOUSE_NUMBER",
+      "RIGHT_LOCALITY_ID",
+      "RIGHT_HOUSE_NUM_SCHEME_CODE",
+      "FROM_RIGHT_HOUSE_NUMBER",
+      "TO_RIGHT_HOUSE_NUMBER",
+      "FROM_TRAFFIC_IMPACTOR_CODE",
+      "TO_TRAFFIC_IMPACTOR_CODE",
+      "DATA_CAPTURE_METHOD_CODE",
+      "CREATE_INTEGRATION_SESSION_ID",
+      "MODIFY_INTEGRATION_SESSION_ID",
+      "CREATE_PARTNER_ORG_ID",
+      "MODIFY_PARTNER_ORG_ID",
+      "CUSTODIAN_PARTNER_ORG_ID",
+      "Z_VALUE_DERIVED_IND",
+      "CAPTURE_DATE",
+      "DEACTIVATION_DATE",
+      "TRANSPORT_LINE_SURFACE_CODE",
+      "TRANSPORT_LINE_DIVIDED_CODE",
+      "TRAVEL_DIRECTION_CODE",
+      "TRANSPORT_LINE_STRUCTURE_CODE",
+      "SPEED_LIMIT",
+      "LEFT_NUMBER_OF_LANES",
+      "RIGHT_NUMBER_OF_LANES",
+      "TOTAL_NUMBER_OF_LANES",
+      "UNDER_CONSTRUCTION_IND",
+      "VIRTUAL_IND",
+      "DISASTER_ROUTE_IND",
+      "TRUCK_ROUTE_IND",
+      "LEFT_REGIONAL_DISTRICT_ID",
+      "RIGHT_REGIONAL_DISTRICT_ID",
+      "STRUCTURED_NAME_3_ID",
+      "STRUCTURED_NAME_4_ID",
+      "STRUCTURED_NAME_5_ID",
+      "STRUCTURED_NAME_6_ID",
+      "STRUCTURED_NAME_7_ID",
+      "HIGHWAY_ROUTE_1",
+      "HIGHWAY_ROUTE_2",
+      "HIGHWAY_ROUTE_3",
+      "HIGHWAY_EXIT_NUMBER",
+      "INDUSTRY_NAME_1",
+      "INDUSTRY_NAME_2",
+      "INDUSTRY_NAME_3",
+      "LANE_RESTRICTION_CODE",
+      "ACCESS_RESTRICTION_CODE",
+      "FROM_LEFT_TURN_TIME_CODE",
+      "FROM_CENTRE_TURN_TIME_CODE",
+      "FROM_RIGHT_TURN_TIME_CODE",
+      "TO_LEFT_TURN_TIME_CODE",
+      "TO_CENTRE_TURN_TIME_CODE",
+      "TO_RIGHT_TURN_TIME_CODE",
+      "FROM_VEHICLE_MAX_WEIGHT_KG",
+      "TO_VEHICLE_MAX_WEIGHT_KG",
+      "FROM_VEHICLE_MAX_WIDTH_METRE",
+      "TO_VEHICLE_MAX_WIDTH_METRE",
+      "FROM_VEHICLE_MAX_HEIGHT_METRE",
+      "TO_VEHICLE_MAX_HEIGHT_METRE",
+      "MINISTRY_OF_TRANSPORT_ID",
+      "MINISTRY_OF_TRANSPORT_NAME",
+      "INTEGRATION_NOTES",
+      "EXCLUDED_RULES",
+      "GEOMETRY"
+    ],
+    "Addressing":[
+      "TRANSPORT_LINE_ID",
+      "STRUCTURED_NAME_1_ID",
+      "STRUCTURED_NAME_2_ID",
+      "TRANSPORT_LINE_TYPE_CODE",
+      "SINGLE_HOUSE_NUMBER",
+      "LEFT_REGIONAL_DISTRICT_ID",
+      "LEFT_LOCALITY_ID",
+      "LEFT_HOUSE_NUM_SCHEME_CODE",
+      "FROM_LEFT_HOUSE_NUMBER",
+      "TO_LEFT_HOUSE_NUMBER",
+      "RIGHT_REGIONAL_DISTRICT_ID",
+      "RIGHT_LOCALITY_ID",
+      "RIGHT_HOUSE_NUM_SCHEME_CODE",
+      "FROM_RIGHT_HOUSE_NUMBER",
+      "TO_RIGHT_HOUSE_NUMBER"
+    ],
+    "Names":[
+      "TRANSPORT_LINE_ID",
+      "LEFT_LOCALITY_ID",
+      "RIGHT_LOCALITY_ID",
+      "STRUCTURED_NAME_1_ID",
+      "STRUCTURED_NAME_2_ID",
+      "STRUCTURED_NAME_3_ID",
+      "STRUCTURED_NAME_4_ID",
+      "STRUCTURED_NAME_5_ID",
+      "STRUCTURED_NAME_6_ID",
+      "STRUCTURED_NAME_7_ID",
+      "HIGHWAY_ROUTE_1",
+      "HIGHWAY_ROUTE_2",
+      "HIGHWAY_ROUTE_3",
+      "HIGHWAY_EXIT_NUMBER",
+      "INDUSTRY_NAME_1",
+      "INDUSTRY_NAME_2",
+      "INDUSTRY_NAME_3",
+      "MINISTRY_OF_TRANSPORT_NAME"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/GBA\/TRANSPORT_LINE"
+}

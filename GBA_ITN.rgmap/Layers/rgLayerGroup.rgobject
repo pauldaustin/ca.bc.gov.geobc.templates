@@ -1,0 +1,25 @@
+{
+  "j:type":"Project",
+  "name":"GBA",
+  "visible":true,
+  "open":true,
+  "readOnly":false,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "layers":[
+    "../../Base Maps.rgmap",
+    "Roads",
+    "Sites _ Addresses",
+    "Boundaries",
+    "ParcelMap BC Parcel Fabric.rgobject",
+    "Integrated Cadastral Fabric.rgobject"
+  ],
+  "frameBounds":[
+    10,
+    33,
+    1420,
+    823
+  ],
+  "singleLayerVisible":false,
+  "viewBoundingBox":"SRID=3005;BBOX(1227255.7424694053,474153.77721798787 1228125.4512139,474559.20535451925)"
+}

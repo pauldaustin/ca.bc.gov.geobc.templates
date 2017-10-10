@@ -1,0 +1,5 @@
+{
+  "j:type":"arcGisRestServer",
+  "name":"BC Maps ArcGIS",
+  "serviceUrl":"http://maps.gov.bc.ca/arcserver/rest/services"
+}

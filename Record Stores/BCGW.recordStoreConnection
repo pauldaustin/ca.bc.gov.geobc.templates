@@ -1,0 +1,7 @@
+{
+  "j:type":"recordStore",
+  "connection":{
+    "url":"jdbc:oracle:thin:@//bcgw.bcgov:1521/idwprod1.bcgov"
+  },
+  "name":"BCGW"
+}

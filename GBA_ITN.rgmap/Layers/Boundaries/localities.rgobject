@@ -1,0 +1,47 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"localities",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":true,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "style":{
+    "j:type":"geometryStyle",
+    "j:type":"geometryStyle",
+    "name":"Geometry Style",
+    "lineColor":"Green",
+    "polygonFill":"Green",
+    "polygonFillOpacity":127
+  },
+  "connection":{
+    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/boundaries.gdb\/"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "OBJECTID",
+      "Shape",
+      "LOC_ID",
+      "NAME",
+      "AREA",
+      "LAT",
+      "LONG",
+      "BCALB_EAST",
+      "BCALB_NTH",
+      "Shape_Length",
+      "Shape_Area"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/localities"
+}

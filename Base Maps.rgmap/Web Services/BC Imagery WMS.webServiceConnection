@@ -1,0 +1,5 @@
+{
+  "j:type":"ogcWmsServer",
+  "name":"BC Imagery WMS",
+  "serviceUrl":"http://openmaps.gov.bc.ca/imagex/ecw_wms.dll"
+}

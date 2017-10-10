@@ -1,0 +1,14 @@
+{
+  "j:type":"layerGroup",
+  "name":"Roads",
+  "visible":true,
+  "open":true,
+  "readOnly":false,
+  "maximumScale":0,
+  "minimumScale":9223372036854775807,
+  "singleLayerVisible":false,
+  "layers":[
+    "TRANSPORT_LINE.rgobject",
+    "Forest Tenure Roads.rgobject"
+  ]
+}

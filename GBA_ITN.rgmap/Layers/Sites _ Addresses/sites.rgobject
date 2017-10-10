@@ -1,0 +1,277 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"sites",
+  "visible":false,
+  "open":false,
+  "querySupported":true,
+  "queryable":true,
+  "readOnly":false,
+  "editable":false,
+  "selectable":true,
+  "selectSupported":true,
+  "maximumScale":0,
+  "minimumScale":50000000,
+  "style":{
+    "j:type":"filterStyle",
+    "j:type":"filterStyle",
+    "name":"Styles",
+    "styles":[
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Aero",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'AERO'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/airport"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Ambulance",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'AMBULANCE'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "marker":{
+          "j:type":"markerText",
+          "j:type":"markerText",
+          "textFaceName":"FontAwesome",
+          "text":""
+        }
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Civic",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'CIVIC'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"rgb(153,0,153)",
+        "markerType":"circle"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Coastguard",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'COASTGUARD'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"rgb(0,102,255)",
+        "markerType":"circle"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Correctional",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'CORRECTIONAL'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/prison"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Fire",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'FIRE'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/fire-station"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Hospital",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'HOSPITAL'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/hospital"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Park",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'PARK'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/park"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Police",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'POLICE'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/police"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Post Secondary",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'POST_SEC'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/college"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"School",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'SCHOOLS'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/school"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Trail",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'TRAIL'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/pitch"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Transit",
+        "filter":{
+          "j:type":"sqlFilter",
+          "j:type":"sqlFilter",
+          "query":"PL_GROUP = 'TRANSIT'"
+        },
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Black",
+        "markerFill":"Black",
+        "markerType":"maki\/bus"
+      },
+      {
+        "j:type":"markerStyle",
+        "j:type":"markerStyle",
+        "name":"Other Sites",
+        "markerWidth":"16.0 [pnt]",
+        "markerHeight":"16.0 [pnt]",
+        "markerLineColor":"Olive",
+        "markerFill":"Olive",
+        "markerFillOpacity":127
+      }
+    ]
+  },
+  "pluginConfig":{
+    "tableView":{
+      "fieldFilterMode":"selected",
+      "geometryFilterMode":"all",
+      "searchField":"PL_GROUP",
+      "filter":{
+        "j:type":"sqlFilter",
+        "j:type":"sqlFilter",
+        "query":"PL_GROUP = 'POLICE'"
+      },
+      "orderBy":{
+        "OBJECTID":true
+      }
+    }
+  },
+  "connection":{
+    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/sites.gdb\/"
+  },
+  "canAddRecords":true,
+  "canDeleteRecords":true,
+  "canEditRecords":true,
+  "canPasteRecords":true,
+  "snapToAllLayers":true,
+  "fieldNamesSets":{
+    "All":[
+      "OBJECTID",
+      "Shape",
+      "ID",
+      "PL_GROUP",
+      "PL_TYPE",
+      "PL_NAME",
+      "ADDR_NUM",
+      "ADDR_ROAD",
+      "ADDR_OTHER",
+      "CITY",
+      "EASTING",
+      "NORTHING",
+      "LATITUDE",
+      "LONGITUDE",
+      "MAP_CHAR",
+      "PL_ALIAS",
+      "PL_ALIAS2"
+    ]
+  },
+  "useFieldTitles":false,
+  "typePath":"\/sites"
+}

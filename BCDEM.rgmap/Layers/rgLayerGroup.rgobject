@@ -1,0 +1,16 @@
+{
+  "j:type":"layerGroup",
+  "name":"BCDEM",
+  "visible":true,
+  "open":true,
+  "geometryFactory": {
+    "j:type":
+  },
+  "layers":[
+    "../../Base Maps.rgmap",
+    "../../Grids.rgmap",
+    "BCDEM Change History",
+    "BCDEM Tile Grids",
+    "BCDEM Gridded Elevation Model.rgobject"
+  ]
+}

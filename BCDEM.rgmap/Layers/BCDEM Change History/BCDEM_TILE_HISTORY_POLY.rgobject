@@ -1,0 +1,100 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"BCDEM_TILE_HISTORY_POLY",
+  "visible": false,
+  "readOnly":true,
+  "minimumScale":20000,
+  "maximumScale":0,
+  "style":{
+    "j:type":"filterStyle",
+    "name":"Styles",
+    "styles":[
+      {
+        "j:type":"multipleStyle",
+        "name":"Current",
+        "styles":[
+          {
+            "j:type":"geometryStyle",
+            "name":"Outline",
+            "lineColor":"Blue",
+            "polygonFillOpacity":0
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Tile Id",
+            "textSize":"12 [pnt]",
+            "textName":"[TILE_X]_[TILE_Y]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle"
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Source File Name",
+            "textSize":"12 [pnt]",
+            "textName":"[SOURCE_FILE_NAME]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle",
+            "textDy":-20
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Capture Date",
+            "textSize":"12 [pnt]",
+            "textName":"[CAPTURE_DATE]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle",
+            "textDy":-40
+          }
+        ],
+        "filter":{
+          "j:type":"sqlFilter",
+          "query":"ACTIVE_IND = 'Y'"
+        }
+      },
+      {
+        "j:type":"multipleStyle",
+        "name":"History",
+        "visible": false,
+        "styles":[
+          {
+            "j:type":"geometryStyle",
+            "name":"Outline",
+            "lineColor":"LightGray",
+            "polygonFillOpacity":0
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Tile Id",
+            "textSize":"12 [pnt]",
+            "textName":"[TILE_X]_[TILE_Y]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle"
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Source File Name",
+            "textSize":"12 [pnt]",
+            "textName":"[SOURCE_FILE_NAME]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle",
+            "textDy":-20
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Capture Date",
+            "textSize":"12 [pnt]",
+            "textName":"[CAPTURE_DATE]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle",
+            "textDy":-40
+          }
+        ]
+      }
+    ]
+  },
+  "connection":{
+    "name":"BCDEM",
+  },
+  "useFieldTitles":false,
+  "typePath":"/BCDEM/BCDEM_TILE_HISTORY_POLY"
+}

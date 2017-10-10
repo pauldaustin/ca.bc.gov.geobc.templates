@@ -1,0 +1,7 @@
+{
+  "j:type":"ogcWmsImageLayer",
+  "name":"Planet Labs Imagery",
+  "visible":false,
+  "connectionName":"Planet Labs Imagery",
+  "layerName":"Streaming_Image_Content"
+}
