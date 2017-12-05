@@ -2,6 +2,7 @@
   "j:type":"gridLayer",
   "name":"Albers 20 000m",
   "visible":true,
+  "selectable": false,
   "minimumScale":500000,
   "maximumScale":200001,
   "style":{

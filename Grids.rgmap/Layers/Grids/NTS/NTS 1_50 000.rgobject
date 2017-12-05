@@ -5,6 +5,7 @@
   "open":false,
   "querySupported":true,
   "queryable":true,
+  "selectable": false,
   "maximumScale":0,
   "minimumScale":2500000,
   "style":{
