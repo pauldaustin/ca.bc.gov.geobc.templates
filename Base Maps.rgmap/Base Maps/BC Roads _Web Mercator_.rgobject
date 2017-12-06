@@ -1,0 +1,7 @@
+{
+  "j:type": "arcGisRestServerTileLayer",
+  "name": "BC Roads (Web Mercator)",
+  "connectionName": "BC Maps ArcGIS",
+  "servicePath": "/Province/roads_wm/MapServer",
+  "visible": false
+}

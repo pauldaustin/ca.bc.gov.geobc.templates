@@ -3,6 +3,7 @@
   "name":"Base Maps",
   "layers":[
     "BC Roads _Albers_.rgobject",
+    "BC Roads _Web Mercator_.rgobject",
     "Planet Labs Imagery.rgobject",
     "Bing Road.rgobject",
     "Bing Aerial.rgobject",
