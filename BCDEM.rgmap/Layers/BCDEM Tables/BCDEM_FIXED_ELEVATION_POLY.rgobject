@@ -1,0 +1,19 @@
+{
+  "j:type":"recordStoreLayer",
+  "name":"BCDEM_FIXED_ELEVATION_POLY",
+  "visible":false,
+  "readOnly":true,
+  "minimumScale":200000,
+  "style":{
+    "j:type":"geometryStyle",
+    "name":"Geometry Style",
+    "lineColor":"Maroon",
+    "polygonFill":"Maroon",
+    "polygonFillOpacity":63
+  },
+  "connection":{
+    "name":"BCDEM"
+  },
+  "useFieldTitles":false,
+  "typePath":"/BCDEM/BCDEM_FIXED_ELEVATION_POLY"
+}

@@ -10,7 +10,7 @@
   "layers":[
     "../../Base Maps.rgmap",
     "../../Grids.rgmap",
-    "BCDEM Change History",
+    "BCDEM Tables",
     "BCDEM Tile Grids",
     "BCDEM Gridded Elevation Model.rgobject"
   ]
