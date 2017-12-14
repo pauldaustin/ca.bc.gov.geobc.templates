@@ -4,7 +4,7 @@
   "connection": {
     "name": "BCGW"
   },
-  "typePath": "/WHSE_CADASTRE/PMBC_PARCEL_FABRIC_POLY",
+  "typePath": "/WHSE_CADASTRE/PMBC_PARCEL_FABRIC_POLY_SVW",
   "minimumScale": 500000,
   "visible": false,
   "selectable": false,

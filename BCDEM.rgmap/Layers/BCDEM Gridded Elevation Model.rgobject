@@ -277,8 +277,8 @@
     "j:type":"geometryFactory",
     "srid":3005,
     "axisCount":3,
-    "scaleX":1,
-    "scaleY":1,
+    "scaleX":1000,
+    "scaleY":1000,
     "scaleZ":1000
   },
   "url":"folderconnection://BCDEM%20Data/ground_dem",
