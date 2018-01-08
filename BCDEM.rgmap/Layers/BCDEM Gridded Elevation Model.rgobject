@@ -20,9 +20,9 @@
       },
       {
         "j:type":"rasterizerGriddedElevationModelLayerRenderer",
-        "name":"Multi Colour",
+        "name":"Color Ramp",
         "rasterizer":{
-          "j:type":"colourRampGriddedElevationModelRasterizer",
+          "j:type":"colorRampGriddedElevationModelRasterizer",
           "colorRanges":[
             {
               "j:type":"griddedElevationModelColorRamp",
