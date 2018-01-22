@@ -20,9 +20,9 @@
       },
       {
         "j:type":"rasterizerGriddedElevationModelLayerRenderer",
-        "name":"Color Ramp",
+        "name":"Color Gradient",
         "rasterizer":{
-          "j:type":"colorRampGriddedElevationModelRasterizer"
+          "j:type":"colorGradientGriddedElevationModelRasterizer"
         },
         "opacity":0.7
       }
