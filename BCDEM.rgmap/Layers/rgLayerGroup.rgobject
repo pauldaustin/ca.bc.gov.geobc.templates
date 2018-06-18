@@ -10,7 +10,7 @@
   "layers":[
     "../../Base Maps.rgmap",
     "../../Grids.rgmap",
-    "BCDEM Tables",
+    "BCDEM",
     "BCDEM Tile Grids",
     "BCDEM Gridded Elevation Model.rgobject"
   ]

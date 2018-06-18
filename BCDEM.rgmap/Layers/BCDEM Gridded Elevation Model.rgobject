@@ -30,7 +30,6 @@
     "minZ":0,
     "maxZ":3500
   },
-  "fileExtension":"demcb",
   "geometryFactory":{
     "j:type":"geometryFactory",
     "srid":3005,

@@ -1,9 +1,10 @@
 {
   "j:type":"layerGroup",
-  "name":"BCDEM Tables",
+  "name":"BCDEM",
   "visible":true,
   "open":true,
   "layers":[
+    "PARTNER_ORGANIZATION.rgobject",
     "BCDEM_FIXED_ELEVATION_POLY.rgobject",
     "BCDEM_TILE_HISTORY_POLY.rgobject",
     "BCDEM_SOURCE_FILE_POLY.rgobject"
