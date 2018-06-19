@@ -1,32 +1,63 @@
 {
-  "j:type":"recordStoreLayer",
-  "name":"BCDEM_SOURCE_FILE_POLY",
-  "visible":false,
-  "readOnly":true,
-  "minimumScale":200000,
-  "style":{
-    "j:type":"multipleStyle",
-    "styles":[
-      {
-        "j:type":"geometryStyle",
-        "name":"Outline",
-        "lineColor":"Red",
-        "polygonFill":"Red",
-        "polygonFillOpacity":0
-      },
-      {
-        "j:type":"textStyle",
-        "name":"File Name",
-        "textSize":"12 [pnt]",
-        "textName":"[SOURCE_FILE_NAME]\n[CAPTURE_DATE]",
-        "textHorizontalAlignment":"center",
-        "textVerticalAlignment":"middle"
+	"j:type": "recordStoreLayer",
+	"name": "BCDEM_SOURCE_FILE_POLY",
+	"visible": false,
+	"readOnly": true,
+	"minimumScale": 200000,
+	"style": {
+		"j:type": "filterStyle",
+		"styles": [
+			{
+				"j:type": "multipleStyle",
+				"name": "Updates",
+				"styles": [
+					{
+						"j:type": "geometryStyle",
+						"name": "Outline",
+						"lineColor": "Red",
+						"polygonFill": "Red",
+						"polygonFillOpacity": 0
+					},
+					{
+						"j:type": "textStyle",
+						"name": "File Name",
+						"textSize": "12 [pnt]",
+						"textName": "[SOURCE_FILE_NAME]\n[CAPTURE_DATE]",
+						"textHorizontalAlignment": "center",
+						"textVerticalAlignment": "middle"
+					}
+				],
+				"filter":{
+          "j:type":"sqlFilter",
+          "query":"SOURCE_FILE_NAME != 'TRIM'"
+        } 
+      },{
+        "j:type": "multipleStyle",
+        "name": "TRIM (Original)",
+        "visible": false,
+        "styles": [
+          {
+            "j:type": "geometryStyle",
+            "name": "Outline",
+            "lineColor": "Brown",
+            "polygonFill": "Brown",
+            "polygonFillOpacity": 0
+          },
+          {
+            "j:type": "textStyle",
+            "name": "File Name",
+            "textSize": "12 [pnt]",
+            "textName": "TRIM",
+            "textHorizontalAlignment": "center",
+            "textVerticalAlignment": "middle"
+          }
+        ]
       }
-    ]
-  },
-  "connection":{
-    "name":"BCDEM"
-  },
-  "useFieldTitles":false,
-  "typePath":"/BCDEM/BCDEM_SOURCE_FILE_POLY"
+		]
+	},
+	"connection": {
+		"name": "BCDEM"
+	},
+	"useFieldTitles": false,
+	"typePath": "/BCDEM/BCDEM_SOURCE_FILE_POLY"
 }
