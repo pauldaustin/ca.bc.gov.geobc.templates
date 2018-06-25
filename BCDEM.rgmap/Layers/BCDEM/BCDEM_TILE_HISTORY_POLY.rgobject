@@ -25,13 +25,14 @@
             "textSize":"12 [pnt]",
             "textName":"[TILE_X]_[TILE_Y]",
             "textHorizontalAlignment":"center",
-            "textVerticalAlignment":"middle"
+            "textVerticalAlignment":"middle",
+            "visible": false
           },
           {
             "j:type":"textStyle",
             "name":"Source File Name",
             "textSize":"12 [pnt]",
-            "textName":"[SOURCE_FILE_NAME]",
+            "textName":"[BCDEM_SOURCE_FILE_POLY_ID.SOURCE_FILE_NAME]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
             "textDy":-20
@@ -43,7 +44,8 @@
             "textName":"[CAPTURE_DATE]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-40
+            "textDy":-40,
+            "visible": false
           }
         ],
         "filter":{
@@ -68,13 +70,14 @@
             "textSize":"12 [pnt]",
             "textName":"[TILE_X]_[TILE_Y]",
             "textHorizontalAlignment":"center",
-            "textVerticalAlignment":"middle"
+            "textVerticalAlignment":"middle",
+            "visible": false
           },
           {
             "j:type":"textStyle",
             "name":"Source File Name",
             "textSize":"12 [pnt]",
-            "textName":"[SOURCE_FILE_NAME]",
+            "textName":"[BCDEM_SOURCE_FILE_POLY_ID.SOURCE_FILE_NAME]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
             "textDy":-20
@@ -86,7 +89,8 @@
             "textName":"[CAPTURE_DATE]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-40
+            "textDy":-40,
+            "visible": false
           }
         ]
       }
