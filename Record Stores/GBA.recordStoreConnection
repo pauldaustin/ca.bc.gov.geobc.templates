@@ -34,7 +34,7 @@
         "createMissingCodes":"false",
         "idFieldName":"HOUSE_NUM_SCHEME_CODE",
         "valueFieldName":"DESCRIPTION",
-				"caseSensitive": true,
+        "caseSensitive": true,
         "fieldNameAliases":[
           "LEFT_HOUSE_NUM_SCHEME_CODE",
           "RIGHT_HOUSE_NUM_SCHEME_CODE"

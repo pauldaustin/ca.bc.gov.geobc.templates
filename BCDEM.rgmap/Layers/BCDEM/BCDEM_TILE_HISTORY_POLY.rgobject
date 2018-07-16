@@ -1,9 +1,9 @@
 {
   "j:type":"recordStoreLayer",
   "name":"BCDEM_TILE_HISTORY_POLY",
-  "visible": false,
+  "visible":false,
   "readOnly":true,
-  "minimumScale":20000,
+  "minimumScale":100000,
   "maximumScale":0,
   "style":{
     "j:type":"filterStyle",
@@ -12,85 +12,128 @@
       {
         "j:type":"multipleStyle",
         "name":"Current",
+        "filter":{
+          "j:type":"sqlFilter",
+          "query":"ACTIVE_IND = 'Y'"
+        },
         "styles":[
           {
-            "j:type":"geometryStyle",
-            "name":"Outline",
-            "lineColor":"Blue",
-            "polygonFillOpacity":0
-          },
-          {
-            "j:type":"textStyle",
-            "name":"Tile Id",
-            "textSize":"12 [pnt]",
-            "textName":"[TILE_X]_[TILE_Y]",
-            "textHorizontalAlignment":"center",
-            "textVerticalAlignment":"middle",
-            "visible": false
+            "j:type":"filterStyle",
+            "name":"Resolution",
+            "styles":[
+              {
+                "j:type":"geometryStyle",
+                "name":"1m",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "query":"RESOLUTION_M = 1"
+                },
+                "lineColor":"rgb(0,204,51)",
+                "polygonFill":"rgba(0,204,51,0.2549019607843137)",
+                "polygonFillOpacity":65
+              },
+              {
+                "j:type":"geometryStyle",
+                "name":"2m",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "query":"RESOLUTION_M = 2"
+                },
+                "lineColor":"rgba(255,255,102,0.2549019607843137)",
+                "polygonFill":"rgba(255,255,102,0.5019607843137255)",
+                "polygonFillOpacity":65
+              },
+              {
+                "j:type":"geometryStyle",
+                "name":"10m",
+                "filter":{
+                  "j:type":"sqlFilter",
+                  "query":"RESOLUTION_M = 10"
+                },
+                "lineColor":"rgba(255,204,51,0.5019607843137255)",
+                "polygonFill":"rgba(255,153,0,0.2549019607843137)",
+                "polygonFillOpacity":65
+              },
+              {
+                "j:type":"geometryStyle",
+                "name":"100m",
+                "lineColor":"rgb(255,51,51)",
+                "polygonFill":"rgba(255,51,51,0.24705882352941178)",
+                "polygonFillOpacity":63
+              }
+            ]
           },
           {
             "j:type":"textStyle",
             "name":"Source File Name",
-            "textSize":"12 [pnt]",
+            "minimumScale":25000,
+            "textSize":"12.0 pnt",
             "textName":"[BCDEM_SOURCE_FILE_POLY_ID.SOURCE_FILE_NAME]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-20
+            "textDy":"20.0 pnt"
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Tile Id",
+            "minimumScale":10000,
+            "textSize":"12.0 pnt",
+            "textName":"[TILE_X]_[TILE_Y]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle"
           },
           {
             "j:type":"textStyle",
             "name":"Capture Date",
-            "textSize":"12 [pnt]",
+            "minimumScale":10000,
+            "textSize":"12.0 pnt",
             "textName":"[CAPTURE_DATE]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-40,
-            "visible": false
+            "textDy":"-20.0 pnt"
           }
-        ],
-        "filter":{
-          "j:type":"sqlFilter",
-          "query":"ACTIVE_IND = 'Y'"
-        }
+        ]
       },
       {
         "j:type":"multipleStyle",
         "name":"History",
-        "visible": false,
+        "visible":false,
         "styles":[
           {
             "j:type":"geometryStyle",
             "name":"Outline",
             "lineColor":"LightGray",
+            "polygonFill":"Gray",
             "polygonFillOpacity":0
           },
           {
             "j:type":"textStyle",
-            "name":"Tile Id",
-            "textSize":"12 [pnt]",
-            "textName":"[TILE_X]_[TILE_Y]",
-            "textHorizontalAlignment":"center",
-            "textVerticalAlignment":"middle",
-            "visible": false
-          },
-          {
-            "j:type":"textStyle",
             "name":"Source File Name",
-            "textSize":"12 [pnt]",
+            "minimumScale":25000,
+            "textSize":"12.0 pnt",
             "textName":"[BCDEM_SOURCE_FILE_POLY_ID.SOURCE_FILE_NAME]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-20
+            "textDy":"20.0 pnt"
+          },
+          {
+            "j:type":"textStyle",
+            "name":"Tile Id",
+            "minimumScale":10000,
+            "textSize":"12.0 pnt",
+            "textName":"[TILE_X]_[TILE_Y]",
+            "textHorizontalAlignment":"center",
+            "textVerticalAlignment":"middle"
           },
           {
             "j:type":"textStyle",
             "name":"Capture Date",
-            "textSize":"12 [pnt]",
+            "minimumScale":10000,
+            "textSize":"12.0 pnt",
             "textName":"[CAPTURE_DATE]",
             "textHorizontalAlignment":"center",
             "textVerticalAlignment":"middle",
-            "textDy":-40,
-            "visible": false
+            "textDy":"-20.0 pnt"
           }
         ]
       }
