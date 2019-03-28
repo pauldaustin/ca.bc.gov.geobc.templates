@@ -20,14 +20,6 @@
         "valueFieldName":"DESCRIPTION"
       }
     ],
-    "\/GBA\/FEATURE_STATUS_CODE":[
-      {
-        "j:type":"codeTable",
-        "createMissingCodes":"false",
-        "idFieldName":"FEATURE_STATUS_CODE",
-        "valueFieldName":"DESCRIPTION"
-      }
-    ],
     "\/GBA\/HOUSE_NUM_SCHEME_CODE":[
       {
         "j:type":"codeTable",
