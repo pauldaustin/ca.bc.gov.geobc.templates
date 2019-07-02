@@ -46,7 +46,6 @@
         "markerFill":"Black",
         "marker":{
           "j:type":"markerText",
-          "j:type":"markerText",
           "textFaceName":"FontAwesome",
           "text":""
         }
