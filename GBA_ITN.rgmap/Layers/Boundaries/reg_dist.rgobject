@@ -13,8 +13,7 @@
   "maximumScale":0,
   "minimumScale":9223372036854775807,
   "style":{
-    "j:type":"geometryStyle",
-    "j:type":"geometryStyle",
+   "j:type":"geometryStyle",
     "name":"Geometry Style",
     "lineColor":"Teal",
     "polygonFill":"Teal",
@@ -35,7 +34,7 @@
     }
   },
   "connection":{
-    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/boundaries.gdb\/"
+    "url":"folderconnection://GBA%20Data/ancillary/boundaries.gdb/"
   },
   "canAddRecords":true,
   "canDeleteRecords":true,
@@ -54,6 +53,5 @@
       "Shape_Area"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/reg_dist"
+  "typePath":"/reg_dist"
 }

@@ -27,6 +27,5 @@
   "connection":{
     "name": "BCDEM"
   },
-  "useFieldTitles":false,
   "typePath":"/BCDEM/BCDEM_TILE_1K_POLY"
 }

@@ -52,6 +52,5 @@
       "GEOMETRY"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/GBA\/LOCALITY_POLY"
+  "typePath":"/GBA/LOCALITY_POLY"
 }

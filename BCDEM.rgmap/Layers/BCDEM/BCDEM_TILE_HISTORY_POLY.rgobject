@@ -142,6 +142,5 @@
   "connection":{
     "name":"BCDEM"
   },
-  "useFieldTitles":false,
   "typePath":"/BCDEM/BCDEM_TILE_HISTORY_POLY"
 }

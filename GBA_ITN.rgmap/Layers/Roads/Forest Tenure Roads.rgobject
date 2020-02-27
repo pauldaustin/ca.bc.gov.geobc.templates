@@ -13,7 +13,6 @@
   "minimumScale":500000,
   "style":{
     "j:type":"geometryStyle",
-    "j:type":"geometryStyle",
     "name":"Geometry",
     "lineWidth":"1.0 [pnt]",
     "lineColor":"Orange"
@@ -33,6 +32,5 @@
       "GEOMETRY"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/WHSE_FOREST_TENURE\/FTEN_ROAD_LINES"
+  "typePath":"/WHSE_FOREST_TENURE/FTEN_ROAD_LINES"
 }

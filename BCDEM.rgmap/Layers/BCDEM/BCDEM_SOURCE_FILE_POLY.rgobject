@@ -58,6 +58,5 @@
   "connection": {
     "name": "BCDEM"
   },
-  "useFieldTitles": false,
   "typePath": "/BCDEM/BCDEM_SOURCE_FILE_POLY"
 }

@@ -14,6 +14,5 @@
   "connection":{
     "name":"BCDEM"
   },
-  "useFieldTitles":false,
   "typePath":"/BCDEM/BCDEM_FIXED_ELEVATION_POLY"
 }

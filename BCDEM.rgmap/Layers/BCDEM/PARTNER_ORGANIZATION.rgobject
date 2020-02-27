@@ -8,7 +8,6 @@
   "connection":{
     "name":"BCDEM"
   },
-  "useFieldTitles":false,
   "formFactoryExpression":"new ca.bc.gov.bcdem.ui.layer.form.PartnerOrganizationForm(#this, #object)",
   "searchField":"PARTNER_ORGANIZATION_NAME",
   "typePath":"/BCDEM/PARTNER_ORGANIZATION"

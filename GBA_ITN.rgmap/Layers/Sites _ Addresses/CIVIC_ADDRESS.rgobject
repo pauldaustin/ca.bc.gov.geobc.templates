@@ -47,7 +47,7 @@
     }
   },
   "connection":{
-    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/AddressBC\/AddressBC.gdb"
+    "url":"folderconnection://GBA%20Data/ancillary/AddressBC/AddressBC.gdb"
   },
   "canAddRecords":true,
   "canDeleteRecords":true,
@@ -79,6 +79,5 @@
       "SITE_ID"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/CIVIC_ADDRESS"
+  "typePath":"/CIVIC_ADDRESS"
 }

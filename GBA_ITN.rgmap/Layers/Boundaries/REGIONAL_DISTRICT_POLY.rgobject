@@ -1,6 +1,5 @@
 {
   "j:type":"recordStoreLayer",
-  "j:type":"recordStoreLayer",
   "name":"REGIONAL_DISTRICT_POLY",
   "visible":false,
   "open":false,
@@ -39,6 +38,5 @@
       "GEOMETRY"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/GBA\/REGIONAL_DISTRICT_POLY"
+  "typePath":"/GBA/REGIONAL_DISTRICT_POLY"
 }

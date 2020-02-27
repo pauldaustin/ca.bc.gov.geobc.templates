@@ -1116,6 +1116,5 @@
       "MINISTRY_OF_TRANSPORT_NAME"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/GBA\/TRANSPORT_LINE"
+  "typePath":"/GBA/TRANSPORT_LINE"
 }

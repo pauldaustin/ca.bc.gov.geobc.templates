@@ -29,7 +29,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/airport"
+        "markerType":"maki/airport"
       },
       {
         "j:type":"markerStyle",
@@ -93,7 +93,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/prison"
+        "markerType":"maki/prison"
       },
       {
         "j:type":"markerStyle",
@@ -108,7 +108,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/fire-station"
+        "markerType":"maki/fire-station"
       },
       {
         "j:type":"markerStyle",
@@ -123,7 +123,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/hospital"
+        "markerType":"maki/hospital"
       },
       {
         "j:type":"markerStyle",
@@ -138,7 +138,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/park"
+        "markerType":"maki/park"
       },
       {
         "j:type":"markerStyle",
@@ -153,7 +153,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/police"
+        "markerType":"maki/police"
       },
       {
         "j:type":"markerStyle",
@@ -168,7 +168,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/college"
+        "markerType":"maki/college"
       },
       {
         "j:type":"markerStyle",
@@ -183,7 +183,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/school"
+        "markerType":"maki/school"
       },
       {
         "j:type":"markerStyle",
@@ -198,7 +198,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/pitch"
+        "markerType":"maki/pitch"
       },
       {
         "j:type":"markerStyle",
@@ -213,7 +213,7 @@
         "markerHeight":"16.0 [pnt]",
         "markerLineColor":"Black",
         "markerFill":"Black",
-        "markerType":"maki\/bus"
+        "markerType":"maki/bus"
       },
       {
         "j:type":"markerStyle",
@@ -243,7 +243,7 @@
     }
   },
   "connection":{
-    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/sites.gdb\/"
+    "url":"folderconnection://GBA%20Data/ancillary/sites.gdb/"
   },
   "canAddRecords":true,
   "canDeleteRecords":true,
@@ -271,6 +271,5 @@
       "PL_ALIAS2"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/sites"
+  "typePath":"/sites"
 }

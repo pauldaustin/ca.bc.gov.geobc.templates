@@ -20,7 +20,7 @@
     "polygonFillOpacity":127
   },
   "connection":{
-    "url":"folderconnection:\/\/GBA%20Data\/ancillary\/boundaries.gdb\/"
+    "url":"folderconnection://GBA%20Data/ancillary/boundaries.gdb/"
   },
   "canAddRecords":true,
   "canDeleteRecords":true,
@@ -42,6 +42,5 @@
       "Shape_Area"
     ]
   },
-  "useFieldTitles":false,
-  "typePath":"\/localities"
+  "typePath":"/localities"
 }
